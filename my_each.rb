@@ -8,7 +8,7 @@ def my_each(file)
 end
    
 def my_each(words)
-  words.each do |item|
+  words.map do |item|
   # words = "(words, [counter])"
   # counter 0
   # words = "(words, [counter])"
