@@ -13,5 +13,7 @@ def my_each(words)
   # counter 0
   # words = "(words, [counter])"
   # counter+=1
+  yield item
   end
+  return words
 end
