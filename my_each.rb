@@ -5,6 +5,7 @@ def my_each(file)
   file = file.read("while")
    my_each(file)
  end
+end
    
 def my_each(words)
   puts my_each(words) do |item|
